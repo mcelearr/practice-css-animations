@@ -4,8 +4,11 @@ body {
   margin: 0;
 }
 
-.stack {
-  height: 120px;
+p {
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: bolder;
+  color: red;
 }
 
 .wrapper {
@@ -13,20 +16,7 @@ body {
   margin: 0;
 }
 
-.face-anchor {
-  width: 33%;
-  margin: 100px 0 0 0;
-  position: relative;
-  display: inline-block;
-}
-
-.left-panel {
-  width: 33%;
-  margin: 0;
-  display: inline-block;
-}
-
-.right-panel {
+.col-1 {
   width: 33%;
   margin: 0;
   display: inline-block;
