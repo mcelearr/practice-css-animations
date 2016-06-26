@@ -1,16 +1,35 @@
 body {
   background-image: url("background-faces.jpg");
   background-size: 100%;
+  margin: 0;
 }
 
 .stack {
   height: 120px;
 }
 
+.wrapper {
+  width: 100%;
+  margin: 0;
+}
+
 .face-anchor {
-  width: 300px;
-  margin: auto;
+  width: 33%;
+  margin: 100px 0 0 0;
   position: relative;
+  display: inline-block;
+}
+
+.left-panel {
+  width: 33%;
+  margin: 0;
+  display: inline-block;
+}
+
+.right-panel {
+  width: 33%;
+  margin: 0;
+  display: inline-block;
 }
 
 #face {
