@@ -1,6 +1,16 @@
+body {
+  background-image: url("background-faces.jpg");
+  background-size: 100%;
+}
+
+.stack {
+  height: 120px;
+}
+
 .face-anchor {
   width: 300px;
   margin: auto;
+  position: relative;
 }
 
 #face {
